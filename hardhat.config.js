@@ -19,6 +19,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
+
 module.exports = {
   solidity: "0.8.4",
   networks: {
@@ -27,6 +28,7 @@ module.exports = {
       accounts: [process.env.REACT_APP_PRIVATE_KEY]
     },
     etherscan: {
+      url: process.env.REACT_APP_RINKEBY_RPC_URL,
       apiKey: process.env.REACT_APP_ETHERSCAN_KEY
     }
   }
