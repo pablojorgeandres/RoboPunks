@@ -1,6 +1,6 @@
 import React, { Component }  from 'react';
 import { useState } from 'react';
-import { ethers, BigNumbers, BigNumber } from 'ethers';
+import { ethers, BigNumber } from 'ethers';
 import { Box, Button, Flex, Input, Text } from "@chakra-ui/react";
 import roboPunksNFT from './RoboPunksNFT.json';
 
