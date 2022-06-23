@@ -14,7 +14,7 @@ contract RoboPunksNFT is ERC721, Ownable {
     address payable public withdrawWallet;
     mapping(address => uint256) public walletMints;
 
-    constructor() payable ERC721('RoboPunk', 'RP') {
+    constructor() payable ERC721('RoboPunks', 'RP') {
         mintPrice = 0.2 ether;
         totalSupply = 0;
         maxSupply = 1000;

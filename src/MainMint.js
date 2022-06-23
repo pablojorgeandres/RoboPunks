@@ -5,7 +5,7 @@ import { Box, Button, Flex, Input, Text } from "@chakra-ui/react";
 import roboPunksNFT from './RoboPunksNFT.json';
 
 
-const roboPunksNFTAddress = '0xcef4dadc7d7acef9309c2770564afd448014c5c6';
+const roboPunksNFTAddress = '0x5FbDB2315678afecb367f032d93F642f64180aa3';
 
 const MainMint = ({ accounts, setAccounts }) => {
     const [mintAmount, setMintAmount] = useState(1);

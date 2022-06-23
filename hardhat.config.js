@@ -27,15 +27,9 @@ module.exports = {
     rinkeby: {
       url: process.env.REACT_APP_RINKEBY_RPC_URL,
       accounts: [process.env.REACT_APP_PRIVATE_KEY]
-    },
-    etherscan: {
-      apiKey: process.env.REACT_APP_ETHERSCAN_KEY,
-      url: process.env.REACT_APP_RINKEBY_RPC_URL
     }
   },
   etherscan: {
-    apiKey: {
-      rinkeby: process.env.REACT_APP_ETHERSCAN_KEY
-    }
+    apiKey: process.env.REACT_APP_ETHERSCAN_KEY
   }
 };
