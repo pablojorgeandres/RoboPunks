@@ -1,7 +1,5 @@
-import React, { Component }  from 'react';
 import { useState } from 'react';
 import './App.css';
-//import { ChakraProvider } from '@chakra-ui/react';
 import MainMint from './MainMint';
 import NavBar from './NavBar';
 
