@@ -19,10 +19,10 @@ const NavBar = ({ accounts, setAccounts }) => {
     return (
         <Flex justify="space-between" align="center" padding="30px">
             <Flex justify="space-around" width="40%" padding="0 15px">
-                <Link href="https://www.facebook.com/pablojorgeandrespalavecino/" target="_blank">
+                <Link href="https://www.linkedin.com/in/pablojorgeandres/" target="_blank">
                     <Image src={LinkedIn} boxSize="42px" margin="0 15px" />
                 </Link>
-                <Link href="https://www.linkedin.com/in/pablojorgeandres/" target="_blank">
+                <Link href="https://www.instagram.com/pablojorgeandres/" target="_blank">
                     <Image src={InstaGram} boxSize="42px" margin="0 15px" />
                 </Link>
                 <Link href="mailto:pablojorgeandres@gmail.com" target="_blank">
