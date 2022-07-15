@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/RoboPunks/static/css/main.01857aa1.css",
-    "main.js": "/RoboPunks/static/js/main.9dd9451c.js",
+    "main.js": "/RoboPunks/static/js/main.ac7b9d38.js",
     "static/media/parallax-bg.gif": "/RoboPunks/static/media/parallax-bg.a753668321d10848110d.gif",
     "index.html": "/RoboPunks/index.html",
     "main.01857aa1.css.map": "/RoboPunks/static/css/main.01857aa1.css.map",
-    "main.9dd9451c.js.map": "/RoboPunks/static/js/main.9dd9451c.js.map"
+    "main.ac7b9d38.js.map": "/RoboPunks/static/js/main.ac7b9d38.js.map"
   },
   "entrypoints": [
     "static/css/main.01857aa1.css",
-    "static/js/main.9dd9451c.js"
+    "static/js/main.ac7b9d38.js"
   ]
 }
